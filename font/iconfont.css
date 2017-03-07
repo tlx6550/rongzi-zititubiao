@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1488849542079'); /* IE9*/
+  src: url('../font/iconfont.eot?t=1488849542079#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.svg?t=1488849542079#iconfont') format('svg'), /* iOS 4.1- */
+  url('../font/iconfont.woff?t=1488849542079') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf?t=1488849542079') format('truetype') /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  /*在chrome浏览器下被加粗的解决办法,字体有平滑效果*/
+  -webkit-font-smoothing: antialiased;
+ /* //在chrome浏览器下放大出现锯齿的解决办法*/
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-2-1ks:before { content: "\e674"; }
+
+.icon-4-4-5-5ncfk:before { content: "\e713"; }
+
+.icon-4-3-4-4ys:before { content: "\e614"; }
+
+.icon-1-3fasp:before { content: "\e63c"; }
+
+.icon-3-6htzz:before { content: "\e704"; }
+
+.icon-2-3-3--3-3sptg:before { content: "\e726"; }
+
+.icon-1-4fabs:before { content: "\e701"; }
+
+.icon-3-2dkht:before { content: "\e699"; }
+
+.icon-5-6-6zfcg:before { content: "\e6a0"; }
+
+.icon-1-6sftg:before { content: "\e661"; }
+
+.icon-2-2fqrzhq:before { content: "\e60f"; }
+
+.icon-1-5fazs:before { content: "\e621"; }
+
+.icon-yinzhangshenpitongguo:before { content: "\e6a4"; }
+
+.icon-4-2fkgl:before { content: "\e6ec"; }
+
+.icon-4-5sqedgx:before { content: "\e602"; }
+
+.icon-2-4fqhthq:before { content: "\e600"; }
+
+.icon-1-2fabz:before { content: "\e6cf"; }
+
+.icon-6-2fygl:before { content: "\e649"; }
+
+.icon-3-5tywkx:before { content: "\e63a"; }
+
+.icon-3-4tywzy:before { content: "\e601"; }
+
+.icon-1-1ks:before { content: "\e603"; }
+
+.icon-5-2-hkfxgl:before { content: "\e615"; }
+

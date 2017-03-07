@@ -1,0 +1,447 @@
+@charset "UTF-8";
+/*初始化样式*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend, button
+form, fieldset, input, textarea, p, blockquote, th, td {
+  　　padding: 0;
+  　　margin: 0; }
+
+/* 酌情修改 */
+body {
+  background: #fff;
+  color: #333;
+  font-size: 12px;
+  /*解决ie8下不剧中问题*/
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-family: arial, 'Microsoft Yahei', '微软雅黑'; }
+
+/* 短引用的内容可取值：''或"" */
+q:before, q:after {
+  content: ”; }
+
+/* 缩写，图片等无边框 */
+fieldset, img, abbr, acronym {
+  border: 0 none; }
+
+abbr, acronym {
+  font-variant: normal; }
+
+legend {
+  color: #000; }
+
+/* 清除特殊标记的字体和字号 */
+address, caption, cite, code, dfn, em, strong, th, var {
+  　　font-weight: normal;
+  　　font-style: normal; }
+
+/* 上下标 */
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
+table {
+  　　border-collapse: collapse;
+  　　border-spacing: 0; }
+
+/* 表格标题及内容居左显示 */
+caption, th {
+  text-align: left; }
+
+input, img, select {
+  vertical-align: middle; }
+
+/* 清除列表样式 */
+ol, ul {
+  list-style: none; }
+
+/* 输入控件字体 */
+input, button, textarea, select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit; }
+
+/* 标题元素样式清除 */
+h1, h2, h3, h4, h5, h6 {
+  　　font-weight: normal;
+  　　font-size: 100%; }
+
+/* 链接样式，颜色可酌情修改 */
+del, ins, a {
+  text-decoration: none; }
+
+a:link {
+  color: #fff; }
+
+a:visited {
+  color: #fff; }
+
+a:hover, a:active, a:focus {
+  color: #fff;
+  text-decoration: none; }
+
+/* 鼠标样式 */
+input[type="submit"] {
+  cursor: pointer; }
+
+button {
+  cursor: pointer; }
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+body {
+  padding: 10px; }
+
+/*图标背景颜色*/
+/*label*/
+/*block*/
+/*mani-body*/
+.rj-container {
+  width: 1150px;
+  margin: 0 auto; }
+
+.rj-header {
+  background-color: #00b0f0;
+  color: #fff;
+  letter-spacing: 3px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 1px; }
+  .rj-header span {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    letter-spacing: 5px; }
+
+.rj-body {
+  margin-top: 10px;
+  border: 1px solid #d3e9fc;
+  border-top: none; }
+
+.xm-left {
+  height: 355px;
+  width: 35px;
+  background: url(../images/lm_bj.jpg) repeat-y;
+  color: #0f5a75;
+  border-right: 1px solid #d3e9fc; }
+  .xm-left .xm-title {
+    position: relative;
+    display: inline-block;
+    top: 150px;
+    width: 14px;
+    text-align: center;
+    font-size: 14px; }
+
+.xm-left-2 {
+  height: 214px; }
+  .xm-left-2 .xm-title {
+    top: 65px; }
+
+.xm-left-4 {
+  height: 140px; }
+  .xm-left-4 .xm-title {
+    top: 25px; }
+
+.rj-fagl-3 .xm-title {
+  top: 115px; }
+
+.rj-fagl-5 .xm-title {
+  top: 45px; }
+
+.rj-fagl-6 .xm-title {
+  top: 105px; }
+
+.rj-fagl {
+  height: 355px; }
+
+.rj-fagl-2 {
+  height: 214px; }
+
+.rj-fagl-3 {
+  height: 304px; }
+
+.rj-fagl-4 {
+  height: 140px; }
+
+.rj-fagl-5 {
+  height: 235px; }
+
+.rj-fagl-6 {
+  height: 312px; }
+
+.lc-labe {
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #00b0f0; }
+
+.lc-block {
+  display: inline-block;
+  text-align: center;
+  line-height: 66px;
+  width: 64px;
+  height: 64px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #00b0f0; }
+  .lc-block i {
+    font-size: 40px; }
+
+.lc-block-text {
+  display: inline-block;
+  margin-top: 10px; }
+
+/*各背景颜色*/
+.labe-sxed {
+  background-color: #80c99b; }
+
+.labe-dywz {
+  background-color: #fabd88; }
+
+.labe-rzcl {
+  background-color: #ff8080; }
+
+.block-Green {
+  background-color: #1d7373; }
+
+.block-Red {
+  background-color: #a62a58; }
+
+.block-Yellow {
+  background-color: #bfaa30; }
+
+.block-Purple {
+  background-color: #4c2982; }
+
+.xm-right {
+  position: relative; }
+
+.lc-abs {
+  position: absolute; }
+  .lc-abs a:hover {
+    background-color: #80b9ff; }
+
+.lc-xm-1 {
+  top: 40px;
+  left: 115px; }
+
+.lc-xm-3-1 {
+  top: 30px;
+  left: 70px; }
+
+.lc-xm-5-1 {
+  top: 37px;
+  left: 920px; }
+
+.lc-xm-6-1 {
+  top: 255px;
+  left: 162px; }
+
+.lc-xm-6-2 {
+  top: 255px;
+  left: 326px; }
+
+.list-card {
+  border-top: 1px solid #d3e9fc; }
+
+.lc-card-list {
+  position: absolute;
+  z-index: -1; }
+
+.lc-card-1 {
+  top: 65px;
+  left: 140px; }
+
+.lc-card-2 {
+  top: 3px;
+  left: 138px; }
+
+.lc-card-4 {
+  top: 0;
+  left: 164px; }
+
+.lc-card-6 {
+  top: 25px;
+  left: 164px; }
+
+.lc-md-1-1 {
+  top: 147px;
+  left: 75px; }
+
+.lc-md-1-2 {
+  top: 147px;
+  left: 212px; }
+
+.lc-md-1-3 {
+  top: 147px;
+  left: 374px; }
+
+.lc-md-1-4 {
+  top: 147px;
+  left: 525px; }
+
+.lc-md-1-5 {
+  top: 147px;
+  left: 679px; }
+
+.lc-md-1-6 {
+  top: 147px;
+  left: 819px; }
+
+.lc-card-1 {
+  top: 65px;
+  left: 140px; }
+
+.lc-card-2 {
+  top: 3px;
+  left: 138px; }
+
+.lc-card-3 {
+  top: 0;
+  left: 142px; }
+
+.lc-card-5 {
+  top: 0;
+  left: 162px; }
+
+.lc-md-2-1 {
+  top: 26px;
+  left: 75px; }
+
+.lc-md-2-2 {
+  top: 26px;
+  left: 212px; }
+
+.lc-md-2-3 {
+  top: 26px;
+  left: 374px; }
+
+.lc-md-2-4 {
+  top: 26px;
+  left: 525px; }
+
+.lc-md-2-5 {
+  top: 26px;
+  left: 685px; }
+
+.lc-md-4-1 {
+  top: 38px;
+  left: 75px; }
+
+.lc-md-4-2 {
+  top: 38px;
+  left: 238px; }
+
+.lc-md-4-3 {
+  top: 38px;
+  left: 387px; }
+
+.lc-md-4-4 {
+  top: 38px;
+  left: 549px; }
+
+.lc-md-4-5 {
+  top: 38px;
+  left: 714px; }
+
+.lc-md-3-1 {
+  top: 70px;
+  left: 75px; }
+
+.lc-md-3-2 {
+  top: 70px;
+  left: 235px; }
+
+.lc-md-3-3 {
+  top: 70px;
+  left: 384px; }
+
+.lc-md-3-4 {
+  top: 70px;
+  left: 536px; }
+
+.lc-md-3-5 {
+  top: 165px;
+  left: 715px; }
+
+.lc-md-3-6 {
+  top: 70px;
+  left: 830px; }
+
+.lc-md-5-1 {
+  top: 115px;
+  left: 75px; }
+
+.lc-md-5-2 {
+  top: 115px;
+  left: 235px; }
+
+.lc-md-5-3 {
+  top: 115px;
+  left: 384px; }
+
+.lc-md-5-4 {
+  top: 115px;
+  left: 536px; }
+
+.lc-md-5-5 {
+  top: 115px;
+  left: 683px; }
+
+.lc-md-5-6 {
+  top: 115px;
+  left: 811px; }
+
+.lc-md-5-7 {
+  top: 115px;
+  left: 947px; }
+
+.lc-md-6-1 {
+  top: 85px;
+  left: 75px; }
+
+.lc-md-6-2 {
+  top: 85px;
+  left: 229px; }
+
+.lc-md-6-3 {
+  top: 85px;
+  left: 384px; }
+
+.lc-md-6-4 {
+  top: 85px;
+  left: 536px; }
+
+.lc-md-6-5 {
+  top: 85px;
+  left: 683px; }
+
+.lc-md-6-6 {
+  top: 85px;
+  left: 811px; }
+
+.lc-md-6-7 {
+  top: 85px;
+  left: 947px; }
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */
